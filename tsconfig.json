@@ -1,0 +1,20 @@
+{
+    "target": "ESNext",
+    "extends": "./node_modules/gts/tsconfig-google.json",
+    "compilerOptions": {
+        "rootDir": ".",
+        "outDir": "build",
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "test/**/*.ts"
+    ],
+    "types": [
+        "firefox-webext-browser"
+    ],
+}

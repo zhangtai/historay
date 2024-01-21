@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="simple.min.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <p id="history-title">History for <span id="filter-criteria"></span>:</p>
+    <div></div>
+    <fieldset>
+        <legend>Filters:</legend>
+        <div>
+            <input type="checkbox" id="path-filter" name="path-filter" />
+            <label for="path-filter">Filter by path</label>
+        </div>
+        <div>
+            <input type="checkbox" id="title-filter" name="title-filter" checked />
+            <label for="title-filter">Exclude NO TITLE</label>
+        </div>
+    </fieldset>
+
+    <div id="history"></div>
+    <div></div>
+    <script src="index.js"></script>
+</body>
+
+</html>

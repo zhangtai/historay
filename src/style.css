@@ -1,0 +1,30 @@
+body {
+    min-width: 40rem;
+}
+
+#history {
+    white-space: nowrap;
+}
+
+a.history-title {
+    font-size: 0.9em;
+}
+
+a.history-url,
+span.last-visit,
+span.total-visit {
+    color: #888;
+    font-size: 0.7em;
+}
+
+span.total-visit {
+    margin-left: 1em;
+    background-color: antiquewhite;
+    padding: 0.2em;
+    border-radius: 3px;
+}
+
+#filter-criteria {
+    font-size: 0.9em;
+    color: #154ccd;
+}
