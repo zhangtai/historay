@@ -1,6 +1,6 @@
 # Historay
 
-A popup to show history related to current active tab.
+A Firefox extension to show history related to the current view tab, by hostname or(and) path
 
 > [!NOTE]  
 > This extension is inspired by MDN's official example: [history-deleter].
